@@ -403,26 +403,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libRSDriver_adreno",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libRSDriver_adreno.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libRSDriver_adreno.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libadreno_utils",
 	owner: "xiaomi",
 	strip: {
@@ -1074,46 +1054,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqti-util.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "librs_adreno",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/librs_adreno.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/librs_adreno.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "librs_adreno_sha1",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/librs_adreno_sha1.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/librs_adreno_sha1.so"],
 		},
 	},
 	compile_multilib: "both",

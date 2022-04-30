@@ -111,7 +111,6 @@ PRODUCT_PACKAGES += \
     libCB \
     libOpenCL \
     libQSEEComAPI \
-    libRSDriver_adreno \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
@@ -145,8 +144,6 @@ PRODUCT_PACKAGES += \
     libqti-perfd-client \
     libqti-perfd \
     libqti-util \
-    librs_adreno \
-    librs_adreno_sha1 \
     libscalar \
     libsdm-color \
     libsdm-diag \
