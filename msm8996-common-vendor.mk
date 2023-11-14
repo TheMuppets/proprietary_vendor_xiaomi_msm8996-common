@@ -559,5 +559,4 @@ PRODUCT_PACKAGES += \
     qti-telephony-common \
     ReferenceFeature \
     manifest_android.hardware.drm@1.2-service.widevine \
-    vendor.qti.gnss@3.0-service \
-    chargeonlymode
+    vendor.qti.gnss@3.0-service
